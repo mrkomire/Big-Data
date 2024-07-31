@@ -1,1 +1,9 @@
 # Big-Data
+
+In our capstone project, we had identified the key factors influencing high booking rates for Airbnb listings in LA, with a focus on providing actionable insights for investors. We began by gathering and cleaning a Big dataset with 350K observations and 100 variables, which included variables such as price, accommodation capacity, and host response rate. The initial data cleaning involved handling missing values, standardizing numerical data, and ensuring data consistency.
+
+We did EDA to uncover patterns and trends, followed by building an XGBoost predictive model. This model was selected for its ability to manage complex relationships and provide feature importance scores, which guided our focus on specific variables. After using several methods like DAG, Fixed effects, etc.. Our analysis revealed that smaller listings, especially those accommodating 1-2 people, tend to achieve higher booking rates. This suggests a preference for more affordable and intimate settings among travelers.
+
+Pricing was another critical factor. we found that listings priced between $50 and $100 were most likely to be booked, while those priced above $110 saw a decline in booking rates. Host response rate also proved significant; listings with response rates above 94% were more successful, highlighting the importance of prompt communication in securing bookings.
+
+Overall, our project provided data-driven recommendations for Airbnb investors to focus on smaller, well-priced properties and ensure high responsiveness to guest inquiries. These findings are particularly relevant for the LA market and offer a clear pathway for investors to optimize their Airbnb listings based on data-driven insights. This experience not only enhanced our skills in data analysis and machine learning but also provided practical insights into the hospitality industry.
